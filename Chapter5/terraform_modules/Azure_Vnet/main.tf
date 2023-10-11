@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 ##################################################################
-
+/*주석주석*/
 resource "azurerm_virtual_network" "generic-vnet" {
   address_space = var.vnet-cidr
   location = var.azure-dc
